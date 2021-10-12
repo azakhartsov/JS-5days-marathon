@@ -31,7 +31,6 @@ function buildContent() {
   for (let elem of image) {
     const div = document.createElement("div");
     const h3 = document.createElement("h3");
-
     div.classList.add("slide");
     div.style.backgroundImage = `url("${elem.url}")`;
     h3.innerHTML = elem.alt;
